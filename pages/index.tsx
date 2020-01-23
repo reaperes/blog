@@ -1,3 +1,8 @@
-const Home = () => <h1>Hello world!</h1>;
+import s from './index.module.css';
+
+const Home = () =>
+  <header className={s.header}>
+    <img className={s.logo} src="/logo.png" alt="logo" />
+  </header>;
 
 export default Home;
